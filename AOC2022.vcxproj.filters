@@ -15,8 +15,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AOC2022.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AOCDay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="days\AOCDay2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="days\AOCDay1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="days\AOCDay3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="days\AOCDay4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="days\AOCDay5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AOCDay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="days\AOCDay1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="days\AOCDay2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="days\AOCDay3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="days\AOCDay4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="days\AOCDay5.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
