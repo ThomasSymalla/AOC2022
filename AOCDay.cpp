@@ -37,7 +37,7 @@ void AOCDay::processDay( const int& runs )
   {
     long long sum = 0;
     auto input = getInput();
-    for ( int i : std::views::iota( 1, runs ) )
+    for ( int i : std::views::iota( 0, runs ) )
     {
       std::cout << "Calling processDay().\n";
       auto startTime = std::chrono::high_resolution_clock::now();

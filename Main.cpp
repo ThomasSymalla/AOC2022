@@ -7,9 +7,12 @@
 #include <days/AOCDay5.h>
 #include <days/AOCDay6.h>
 #include <days/AOCDay7.h>
+#include <days/AOCDay8.h>
+#include <days/AOCDay9.h>
+#include <days/AOCDay10.h>
 
 int main()
 {
-  std::unique_ptr< GDL::AOCDay > day = std::make_unique< GDL::AOCDay4 >();
+  std::unique_ptr< GDL::AOCDay > day = std::make_unique< GDL::AOCDay10 >();
   day->processDay( 1 );
 }

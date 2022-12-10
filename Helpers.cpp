@@ -24,6 +24,9 @@ std::vector< std::string > splitByDelimiter( const std::string& input, const cha
   return toReturn;
 }
 
+// Given a function that returns true or false on each character, it splits the given string into segments based on that
+// criteria. Adjacent charcaters that fit the criteria will be grouped together into strings, and all the strings will be returned
+// in a vector.
 std::vector< std::string > scrubLineForCriteria( const std::string& input, std::function< bool( char ) > criteria )
 {
   std::vector< std::string > toReturn;
