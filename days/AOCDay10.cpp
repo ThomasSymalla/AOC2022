@@ -77,9 +77,9 @@ struct ElfCPU
 
   void draw()
   {
-    int columnNumber = cycleNum % 40 - 1;
+    int columnNumber = (cycleNum - 1) % 40;
     if ( columnNumber == 0 ) std::cout << "\n";
-    std::cout << ( std::abs( columnNumber - X) <= 1 ? "#" : "." );
+    std::cout << (std::abs(columnNumber - X) <= 1 ? "#" : ".");
   }
 
   int signalStrength()
