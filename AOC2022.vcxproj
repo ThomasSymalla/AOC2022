@@ -139,6 +139,8 @@
     <ClCompile Include="days\AOCDay10.cpp" />
     <ClCompile Include="days\AOCDay11.cpp" />
     <ClCompile Include="days\AOCDay12.cpp" />
+    <ClCompile Include="days\AOCDay13.cpp" />
+    <ClCompile Include="days\AOCDay14.cpp" />
     <ClCompile Include="days\AOCDay2.cpp" />
     <ClCompile Include="days\AOCDay3.cpp" />
     <ClCompile Include="days\AOCDay4.cpp" />
@@ -157,6 +159,8 @@
     <ClInclude Include="days\AOCDay10.h" />
     <ClInclude Include="days\AOCDay11.h" />
     <ClInclude Include="days\AOCDay12.h" />
+    <ClInclude Include="days\AOCDay13.h" />
+    <ClInclude Include="days\AOCDay14.h" />
     <ClInclude Include="days\AOCDay2.h" />
     <ClInclude Include="days\AOCDay3.h" />
     <ClInclude Include="days\AOCDay4.h" />

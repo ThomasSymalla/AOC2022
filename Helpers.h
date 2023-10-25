@@ -114,9 +114,19 @@ struct Coords
     this->y = y;
   }
 
+  bool operator==(const Coords& other)
+  {
+    return x == other.x && y == other.y;
+  }
+
   Coords operator+( const Coords& other )
   {
     return Coords( x + other.x, y + other.y );
+  }
+
+  Coords operator-(const Coords& other)
+  {
+    return Coords(x - other.x, y - other.y);
   }
 };
 

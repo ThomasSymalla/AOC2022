@@ -12,9 +12,11 @@
 #include <days/AOCDay10.h>
 #include <days/AOCDay11.h>
 #include <days/AOCDay12.h>
+#include <days/AOCDay13.h>
+#include <days/AOCDay14.h>
 
 int main()
 {
-  std::unique_ptr< GDL::AOCDay > day = std::make_unique< GDL::AOCDay12 >();
+  std::unique_ptr< GDL::AOCDay > day = std::make_unique< GDL::AOCDay14 >();
   day->processDay( 1 );
 }
