@@ -1,6 +1,6 @@
 # Advent of Code 2022
-This repository contains my personal work for the [Advent of Code](https://adventofcode.com/) 2022 challenge. Each day is organized into its own folder.
-Problems increase in complexity as days goes on. Global ranking is based on how long it took for you to submit the right answer, with penalties for incorrect guesses.
+This repository contains my personal work for the [Advent of Code](https://adventofcode.com/) 2022 challenge. Each day is organized into its own .cpp and .h file.
+Global ranking is based on how long it took for you to submit the right answer, with penalties for incorrect guesses.
 Problems all have two parts, and the difficulty of the problems goes from easy to very difficult as the days go on.
 
 Personally, I attempted to solve the problems as fast as possible to get a good ranking then went back afterwards to clean the solutions up and attempt better solutions (in both time and space complexity).
